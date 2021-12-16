@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Distance  Calculator</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Private Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="output-screen">
+                <img class='output-back-btn' src="media/arrow_back_black_24dp.svg" alt="<" >
+                <div class="output-main-text">
+                </div>
+            </div>
+            <div class="topic">
+                <h1>Two Dimensional Distance Calculator</h1>
+                <p>Calculate the distance 2 points in 2 dimensional space</p>
+            </div>
+            <div class="main-box">
+                <div class="calculate-box">
+                    <div class="inputs">
+                        <div class=" co co-1">
+                            <label for="">X1</label>
+                            <input type="text" id="X1">
+                            <label for="">Y1</label>
+                            <input type="text" id="Y1">
+                        </div>
+                        <div class="co co-1">
+                            <label for="">X2</label>
+                            <input type="text" id="X2">
+                            <label for="">Y2</label>
+                            <input type="text" id="Y2">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id='clear-btn'>Clear</button>
+                        <button id='calculate-btn' style="background-color: #a400ff; color: white;">Calculate</button>
+                    </div>
+                </div>
+                <div class="outputs">
+                    <div class="output-btn formula">
+                        <span class='formula-span'>Mathematical Formula</span> 
+                        <img src="media/arrow_forward_ios_black_24dp.svg" alt=">">
+                        <!-- &#8730 -->
+                    </div>
+                    <div class="output-btn output">
+                        <span> Output</span>
+                        <img src="media/arrow_forward_ios_black_24dp.svg" alt=">">
+                    </div>
+                    <div class="output-btn graph">
+                        <span> Graph</span>
+                        <img src="media/arrow_forward_ios_black_24dp.svg" alt=">">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+</body>
+</html>
